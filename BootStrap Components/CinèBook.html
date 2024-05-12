@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinèBook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand me-3" href="#">CinèBook</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Movies</a> 
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Theatres</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Genre
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Adventure</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Home</a></li>
+                      </ul>
+                  </li>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search Movies" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In/Register</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true"></a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav> 
+    <br>
+    <!-- Carousel -->
+    <div class="row justify-content-center">
+    <div id="carouselExample" class="carousel slide col-md-8 ms-5" style="width: 100;" >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="slideposter1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="slideposter2.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="slideposter3.avif" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    <br>
+      <!-- Cards -->
+      <h2>English Movies</h2>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <img src="poster1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Avengers: Endgame</h5>
+                        <p class="card-text">Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <img src="poster2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Joker</h5>
+                        <p class="card-text">The film, loosely based on DC Comics characters, stars Joaquin Phoenix as the Joker.</p><br>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <img src="poster3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Oppenheimer</h5>
+                        <p class="card-text">Oppenheimer is a 2023 epic biographical thriller drama film written, directed, and produced by Christopher Nolan.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <img src="poster4.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pearl</h5>
+                        <p class="card-text">Pearl (subtitled An X-traordinary Origin Story) is a 2022 American psychological horror film directed by Ti West.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <h2>Hindi Movies</h2>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <img src="posterh1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Animal/h5>
+                        <p class="card-text">Animal is a 2023 Indian Hindi-language action drama film co-written, directed and edited by Sandeep Reddy Vanga and produced by T-Series Films, Bhadrakali Pictures and Cine1 Studios. </p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <img src="posterh2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rocky Aur Rani Kii Prem Kahaani</h5>
+                        <p class="card-text">Rocky Aur Rani Kii Prem Kahaani (transl. Rocky and Rani's Love Story), is a 2023 Indian Hindi-language romantic comedy family drama directed by Karan Johar.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <img src="posterh3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pathaan</h5>
+                        <p class="card-text">Pathaan (pronounced [pəʈʰaːn]) is a 2023 Indian Hindi-language action thriller film co-written and directed by Siddharth Anand and produced by Aditya Chopra under Yash Raj Films. </p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <img src="posterh4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Shershaah</h5>
+                        <p class="card-text">Shershaah (transl. Lion-king) is a 2021 Indian Hindi-language biographical war film based on the life of Vikram Batra, killed in action in the Kargil War</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!-- Accordion -->
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Shrek
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+              <img src="shrek.jpeg" alt=" ">
+            <strong>This is Shrek.</strong> <br><br>Shrek is an animated character from the DreamWorks Animation film series of the same name, known for his grumpy yet lovable demeanor, distinctive green appearance, and unconventional journey of self-discovery and acceptance, ultimately finding love and friendship despite his initial isolation.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            SpiderMan
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <img src="spiderman.webp" alt=" " width="250" height="300">
+            <strong>This is SpiderMan.</strong><br><br> Spider-Man is a superhero character created by writer Stan Lee and artist Steve Ditko for Marvel Comics, known as the alter ego of high school student Peter Parker, who gains spider-like abilities after being bitten by a radioactive spider, and uses his powers to fight crime while grappling with personal struggles and responsibilities.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Mickey Mouse
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <img src="mickeymouse.webp" alt=" " width="300" height="300">
+            <strong>This is Mickey Mouse.</strong><br><br> Mickey Mouse is an iconic cartoon character created by Walt Disney and Ub Iwerks, known for his cheerful personality, distinctive high-pitched voice, and signature red shorts, who has become the mascot of The Walt Disney Company and a symbol of animation worldwide.
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>    
+    <!-- Button -->
+    <div class="d-flex justify-content-center">
+    <button type="button" class="btn btn-primary ms-5" id="signinButton">
+    Sign In
+  </button>
+  </div>
+    
+    <script>
+      document.getElementById('birthdateButton').addEventListener('click', function() {
+        alert('You have been signed in');
+      });
+    </script>
+    </body>
+    </html>
