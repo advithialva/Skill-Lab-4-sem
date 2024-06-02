@@ -5,7 +5,7 @@ This repository contains the assignments for Skill Lab Full Stack Development Co
 
 ## Table of Contents
 
-1. [Bootstrap Components](#assignment-1-bootstrap-components)
+1. [Bootstrap Components](#assignment-1-bootstrap-components-web-page)
 2. [Bookstore UI](#assignment-2-bookstore-ui)
 
 ### Assignment 1: Bootstrap Components Web Page
