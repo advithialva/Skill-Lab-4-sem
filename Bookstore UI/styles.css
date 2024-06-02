@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.carousel-inner img {
+    max-height: 570px;
+}
+.carousel-caption h5 {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.carousel-caption p {
+    color: black;
+    font-size: 1rem;
+}
+#banner3{
+    color: white;
+}
+#bookhead{
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+#modalhead{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    max-width: 300px;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
